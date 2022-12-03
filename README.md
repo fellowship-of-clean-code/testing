@@ -1,2 +1,3 @@
-# testing
-One or more FoCC sessions dedicated to software testing.
+# Testing
+
+One or more Fellowship of Clean Code sessions dedicated to software testing.
