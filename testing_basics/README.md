@@ -9,4 +9,4 @@ In order to get the correct packages, run
 Order of the exercises:
 
 - `first_steps`
-- 
+- `python_project`
