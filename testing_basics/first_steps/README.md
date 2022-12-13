@@ -1,4 +1,7 @@
-Things to try:
+In order to get the correct packages for this section, run
+`pip install -r requirements.txt`.
+
+## `pytest` options
 
 Move into this directory and run `pytest`: you should see successes.
 
