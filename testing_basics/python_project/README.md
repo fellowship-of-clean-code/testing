@@ -112,7 +112,7 @@ This is the "red" step, so we _should_ have a test failure.
 ### Green
 
 Now is the time to write the simplest possible code that'll make the test pass.
-Here is a simple implementation of mergesort:
+Here is a simple recursive implementation of merge-sort:
 
 ```python
 def merge(list_1: list, list_2: list) -> list:
@@ -151,4 +151,15 @@ def sort_list(input_list: list) -> list:
         sort_list(input_list[:length//2]), 
         sort_list(input_list[length//2:]), 
     )
+```
+
+### Refactor
+
+I'll be cheeky here and say that the way to refactor this code is
+to find out that there is a standard python function that 
+does what we need better and faster:
+
+```python
+def sort_list(input_list: list) -> list:
+    return sorted(input_list)
 ```
