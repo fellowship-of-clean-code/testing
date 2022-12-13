@@ -12,4 +12,6 @@ Run `pytest` with some options! Here are some useful ones:
 - `pytest -v` will give information about every test being run
 
 - marking a test with `@pytest.mark.skip` will skip it
-- marking it with `@pytest.mark.xfail` will 
+- marking it with `@pytest.mark.xfail` will run it but "accept" the failure as expected
+    (useful to see at a glance that everything else is still working, or to document 
+    a known bug)

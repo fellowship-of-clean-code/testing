@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "my-project"
+version = "0.1.0"
+description = "An example of a full python project managed with poetry."
+authors = ["jacopok <jacopok@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_project"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.12"
+numpy = "^1.23.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+hypothesis = "^6.61.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
