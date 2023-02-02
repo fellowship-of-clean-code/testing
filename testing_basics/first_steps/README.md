@@ -5,6 +5,12 @@ In order to get the correct packages for this section, run
 
 Move into this directory and run `pytest`: you should see successes.
 
+If you get `ImportError`s, try
+```bash
+export PYTHONPATH="${PYTHONPATH}:."
+```
+not the nicest thing, but for this simple section it'll do.
+
 Break the code (e.g. change the +1 to -1) and verify that the tests break.
 
 Run `pytest` with some options! Here are some useful ones:
