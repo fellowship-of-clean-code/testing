@@ -12,7 +12,7 @@ Order of the exercises:
 
 Test types and examples/descriptions.
 
-- Unit tests
+- Unit tests (example-based)
     - Does this function yield the correct output for this input?
         Are the default values on this method working correctly?
 - Regression tests
