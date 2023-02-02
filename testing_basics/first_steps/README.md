@@ -11,6 +11,9 @@ export PYTHONPATH="${PYTHONPATH}:."
 ```
 not the nicest thing, but for this simple section it'll do.
 
+Alternatively, you can also use `python -m pytest` instead 
+(or `python3 -m pytest` in some Linux flavors).
+
 Break the code (e.g. change the +1 to -1) and verify that the tests break.
 
 Run `pytest` with some options! Here are some useful ones:
